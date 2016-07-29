@@ -1,3 +1,7 @@
+body{
+	padding-top: 30px;
+}
+
 img{
 	height: 150px;
 	width: 250px;
@@ -9,3 +13,4 @@ img{
 .pic{
 	max-width: 100%;
 }
+
