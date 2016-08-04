@@ -1,6 +1,9 @@
-$(function() {
-		$('.popup').click(function() {
+$(document).ready(function(){
+	$(function() {
+		$('.popup').on('click', function() {
 			$('.imagepreview').attr('src', $(this).find('img').attr('src'));
-			$('.changeIDForEach').modal('show');   
+			$('#changeIDForEach').modal('show');   
 		});		
+	});
+
 });

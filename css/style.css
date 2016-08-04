@@ -4,13 +4,15 @@ body{
 
 img{
 	height: 150px;
-	width: 250px;
+	width: 350px;
 	margin: 10px;
 	border: 2px dotted pink;
 }
 
-
+.container{
+	margin: 50px auto;
+}
 .pic{
-	max-width: 100%;
+	max-width: 80%;
 }
 
